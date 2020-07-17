@@ -1,0 +1,57 @@
+*{
+  margin:0;
+}
+.app{
+  background-color:rgba(var(--b3f,250,250,250),1) ;
+  
+  align-items: center;
+  padding-right: 150px;
+  padding-left: 150px;
+  
+}
+
+.app__header { 
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  padding: 15px;
+  object-fit: contain;
+  border-bottom: 1px solid lightgray!important;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.app__headerImage{
+  object-fit: contain;
+}
+.app__posts{
+  padding:20px;
+}
+h1{
+  font-weight: 300;
+  font-family: sans-serif;
+}
+.app__signup{
+  display: flex; 
+  align-items: center;
+  flex-direction: column;
+
+}
+.app__signup >.style_btn{
+  border-radius: 20px;
+	
+	background-color: #1ba0dd;
+	color: #FFFFFF;
+	font-size: 12px;
+  font-weight: bold;
+  margin-top: 40px;
+	padding: 12px 45px;
+	/* letter-spacing: 1px; */
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+.app__signup >.style_btn:hover{
+  background-color: #1ba0dd;
+  opacity: 0.9;
+}
